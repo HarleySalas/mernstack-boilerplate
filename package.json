@@ -15,8 +15,6 @@
   "author": "Harley Salas",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^4.1.2",
-    "cookie-parser": "^1.4.4",
-    "cors": "^2.8.5"
+    "concurrently": "^4.1.2"
   }
 }

@@ -8,6 +8,8 @@ services:
       - "3001:3001"
     environment:
       NODE_ENV: development
+    links:
+      - mongo
     volumes:
       - ./server:/server
   client:
@@ -36,3 +38,5 @@ services:
     volumes:
       - ./database/data-volume/development/:/data/db
       - ./database/script/:/docker-entrypoint-initdb.d/
+    logging:
+      driver: none

@@ -1,3 +1,5 @@
+This project is currently incomplete.
+
 ## Installation
 1. Install dependencies
 2. Set env variables
